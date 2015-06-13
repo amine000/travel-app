@@ -29,6 +29,7 @@
         android:layout_centerHorizontal="true"
         android:background="@android:color/white"
         android:textStyle="bold"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:onClick="findGuides"/>
 
 </RelativeLayout>
