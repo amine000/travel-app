@@ -8,24 +8,16 @@
       </configuration>
     </facet>
   </component>
-<<<<<<< Updated upstream
 <<<<<<< HEAD
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="true">
 =======
   <component name="NewModuleRootManager" inherit-compiler-output="true">
 >>>>>>> origin/master
-=======
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
->>>>>>> Stashed changes
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.gradle" />
     </content>
-<<<<<<< Updated upstream
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
-=======
-    <orderEntry type="inheritedJdk" />
->>>>>>> Stashed changes
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

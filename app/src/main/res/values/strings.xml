@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">Test_Application</string>
-    <string name="hello_world">Please Enter The City You Are In</string>
+    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_sign_in_page">SignInPage</string>
-    <string name="title_activity_enter_location">EnterLocation</string>
-    <string name="title_activity_guide_info">GuideInfo</string>
 </resources>

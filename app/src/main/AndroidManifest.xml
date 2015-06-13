@@ -16,14 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".EnterLocation"
-            android:label="@string/title_activity_enter_location" >
-        </activity>
-        <activity
-            android:name=".GuideInfo"
-            android:label="@string/title_activity_guide_info" >
-        </activity>
     </application>
 
 </manifest>
