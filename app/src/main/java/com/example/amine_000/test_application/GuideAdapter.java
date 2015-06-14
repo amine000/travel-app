@@ -39,6 +39,7 @@ public class GuideAdapter extends ArrayAdapter<Guide> {
             holder.imgIcon = (ImageView)row.findViewById(R.id.imgIcon);
             holder.txtTitle = (TextView)row.findViewById(R.id.txtTitle);
             holder.ratingText = (TextView)row.findViewById(R.id.ratingText);
+            holder.description = (TextView)row.findViewById(R.id.description);
 
             row.setTag(holder);
         }
@@ -51,6 +52,7 @@ public class GuideAdapter extends ArrayAdapter<Guide> {
         holder.txtTitle.setText(guide.name);
         holder.imgIcon.setImageResource(guide.picture);
         holder.ratingText.setText(guide.rating);
+        holder.description.setText(guide.descrip);
 
         return row;
     }
@@ -60,5 +62,6 @@ public class GuideAdapter extends ArrayAdapter<Guide> {
         ImageView imgIcon;
         TextView txtTitle;
         TextView ratingText;
+        TextView description;
     }
 }
