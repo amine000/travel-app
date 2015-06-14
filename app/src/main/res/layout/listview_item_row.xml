@@ -4,7 +4,7 @@
     android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:padding="10dp">
+    android:padding="1dp">
 
     <ImageView android:id="@+id/imgIcon"
         android:layout_width="wrap_content"
@@ -28,14 +28,17 @@
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp" />
 
-    <RatingBar
+    <TextView android:id="@+id/ratingText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:transformPivotY="0dp"
-        android:numStars="5"
-        android:stepSize="1.0"
-        android:id="@+id/ratingBar" />
+        android:layout_marginLeft="10dp"
+        android:gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="#FF0000"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
 
 </LinearLayout>

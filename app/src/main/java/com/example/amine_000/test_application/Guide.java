@@ -6,13 +6,15 @@ package com.example.amine_000.test_application;
 public class Guide {
     public int picture;
     public String name;
+    public String rating;
     public Guide(){
         super();
     }
 
-    public Guide(int icon, String title) {
+    public Guide(int icon, String title, String rating) {
         super();
         this.picture = icon;
         this.name = title;
+        this.rating = rating;
     }
 }

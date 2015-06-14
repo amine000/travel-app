@@ -18,11 +18,11 @@ public class GuideActivity extends ActionBarActivity {
 
         Guide guide_data[] = new Guide[]
                 {
-                        new Guide(R.drawable.app_pic_1, "Angela"),
-                        new Guide(R.drawable.arshy, "Arsh"),
-                        new Guide(R.drawable.ishmam, "Ishmam"),
-                        new Guide(R.drawable.nirmit_shah, "Nirmit"),
-                        new Guide(R.drawable.ayush, "Ayush")
+                        new Guide(R.drawable.app_pic_1, "Angela", "Rating: 2/5"),
+                        new Guide(R.drawable.arshy, "Arsh", "Rating: 3/5"),
+                        new Guide(R.drawable.ishmam, "Ishmam","Rating: 3/5" ),
+                        new Guide(R.drawable.nirmit_shah, "Nirmit", "Rating: 3/5"),
+                        new Guide(R.drawable.ayush, "Ayush", "Rating: 3/5")
                 };
 
         GuideAdapter adapter = new GuideAdapter(this,
